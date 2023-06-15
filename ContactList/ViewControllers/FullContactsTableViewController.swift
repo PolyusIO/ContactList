@@ -35,10 +35,10 @@ extension FullContactsTableViewController {
         
         if indexPath.row == 0 {
             content.image = UIImage(systemName: "phone")
-            content.text = contacts[indexPath.row].phone
+            content.text = contacts[indexPath.section].phone
         } else {
             content.image = UIImage(systemName: "envelope")
-            content.text = contacts[indexPath.row].email
+            content.text = contacts[indexPath.section].email
         }
         
         cell.contentConfiguration = content
