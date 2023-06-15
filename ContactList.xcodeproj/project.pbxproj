@@ -17,6 +17,7 @@
 		8B06B0F52A3B2F69000A2F51 /* ShortContactsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B06B0F42A3B2F69000A2F51 /* ShortContactsTableViewController.swift */; };
 		8B06B0F72A3B2FC5000A2F51 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B06B0F62A3B2FC5000A2F51 /* Person.swift */; };
 		8B06B0FA2A3B3287000A2F51 /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B06B0F92A3B3287000A2F51 /* DataStore.swift */; };
+		8B06B0FD2A3B3B50000A2F51 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B06B0FC2A3B3B50000A2F51 /* TabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		8B06B0F42A3B2F69000A2F51 /* ShortContactsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortContactsTableViewController.swift; sourceTree = "<group>"; };
 		8B06B0F62A3B2FC5000A2F51 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		8B06B0F92A3B3287000A2F51 /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
+		8B06B0FC2A3B3B50000A2F51 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,9 +98,10 @@
 		8B06B0F02A3B289C000A2F51 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				8B06B0FC2A3B3B50000A2F51 /* TabBarController.swift */,
+				8B06B0F42A3B2F69000A2F51 /* ShortContactsTableViewController.swift */,
 				8B06B0DE2A3B25F3000A2F51 /* DetailedViewController.swift */,
 				8B06B0F22A3B2E6F000A2F51 /* FullContactsTableViewController.swift */,
-				8B06B0F42A3B2F69000A2F51 /* ShortContactsTableViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -199,6 +202,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B06B0FA2A3B3287000A2F51 /* DataStore.swift in Sources */,
+				8B06B0FD2A3B3B50000A2F51 /* TabBarController.swift in Sources */,
 				8B06B0F72A3B2FC5000A2F51 /* Person.swift in Sources */,
 				8B06B0F52A3B2F69000A2F51 /* ShortContactsTableViewController.swift in Sources */,
 				8B06B0DF2A3B25F3000A2F51 /* DetailedViewController.swift in Sources */,

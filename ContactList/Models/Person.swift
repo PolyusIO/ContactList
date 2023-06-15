@@ -17,10 +17,10 @@ struct Person {
     }
 }
 
-// MARK: - Extensions
+// MARK: - Static Methods
 extension Person {
-    static func getPersons() -> [Person] {
-        var person: [Person] = []
+    static func getContacts() -> [Person] {
+        var contacts: [Person] = []
         
         let names = DataStore.names.shuffled()
         let surnames = DataStore.surnames.shuffled()
@@ -30,7 +30,7 @@ extension Person {
         let minValue = min(names.count, surnames.count, emails.count, phones.count)
         
         for index in 0 ..< minValue {
-            person.append(
+            contacts.append(
                 Person(
                     name: names[index],
                     surname: surnames[index],
@@ -40,6 +40,6 @@ extension Person {
             )
         }
         
-        return person
+        return contacts
     }
 }

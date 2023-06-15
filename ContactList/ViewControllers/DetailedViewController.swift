@@ -7,13 +7,25 @@
 
 import UIKit
 
-class DetailedViewController: UIViewController {
-
+final class DetailedViewController: UIViewController {
+    
+    // MARK: - IB Outlets
+    @IBOutlet var phoneLabel: UILabel!
+    @IBOutlet var emailLabel: UILabel!
+    
+    // MARK: - Public Properties
+    var contact: Person!
+    
+    // MARK: - Override Methods
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        showContact()
     }
-
-
+    
+    // MARK: - Private Methods
+    private func showContact() {
+        navigationItem.title = contact.fullName
+        phoneLabel.text = "Phone: \(contact.phone)"
+        emailLabel.text = "Email: \(contact.email)"
+    }
 }
-
