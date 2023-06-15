@@ -6,21 +6,21 @@
 //
 
 struct DataStore {
-    let names: [String] = [
+    static let names: [String] = [
         "Марк", "Георгий", "Андрей", "Степан", "Дамир",
         "Кирилл", "Ярослав", "Фёдор", "Максим", "Дмитрий",
         "Всеволод", "Тимофей", "Тимур", "Артём", "Михаил",
         "Александр", "Никита", "Тихон", "Елисей", "Арсений"
     ]
     
-    let surnames: [String] = [
+    static let surnames: [String] = [
         "Морозов", "Воронин", "Хохлов", "Гришин", "Селезнев",
         "Дмитриев", "Захаров", "Морозов", "Николаев", "Прохоров",
         "Харитонов", "Широков", "Прохоров", "Кондрашов", "Зорин",
         "Ефимов", "Павлов", "Спиридонов", "Иванов", "Наумов"
     ]
     
-    let emails: [String] = [
+    static let emails: [String] = [
         "zhand@abbott.com",
         "hane.tiana@smitham.info",
         "pbeer@senger.com",
@@ -44,7 +44,7 @@ struct DataStore {
         "mohr.aleen@hotmail.com"
     ]
     
-    let phones: [String] = [
+    static let phones: [String] = [
         "+299 (474) 613-11-21",
         "+995 (683) 175-99-31",
         "+290 (597) 643-87-50",
